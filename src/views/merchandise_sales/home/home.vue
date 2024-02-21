@@ -7,6 +7,9 @@
     <van-button type="warning">警告按钮</van-button>
     <van-button type="danger">危险按钮</van-button>
 
+    <div>
+      123
+    </div>
     <van-rate v-model="rateValue" />
     <button @click="rateIncrement">评分+1</button>
   </div>
