@@ -11,6 +11,7 @@
       123
     </div>
     <!-- 123456789 -->
+    <!-- 000 -->
     <van-rate v-model="rateValue" />
     <button @click="rateIncrement">评分+1</button>
   </div>
