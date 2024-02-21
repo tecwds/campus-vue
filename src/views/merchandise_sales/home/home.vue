@@ -13,6 +13,7 @@
     <!-- 123456789 -->
     <!-- 000 -->
     <!-- 999 -->
+    <!-- 777 -->
     <van-rate v-model="rateValue" />
     <button @click="rateIncrement">评分+1</button>
   </div>
