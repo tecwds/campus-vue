@@ -1,6 +1,6 @@
 <template>
-  <div class="favor">
-    <h2>favor</h2>
+  <div class="m_order">
+    <h2>m_order</h2>
   </div>
 </template>
 
