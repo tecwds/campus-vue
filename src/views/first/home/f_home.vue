@@ -4,6 +4,7 @@
     <div class="banner">
       <img src="../../../../public/backgroung.jpg" alt="banner">
     </div>
+    <!-- d -->
     <div class="f_box">
       <div class="function"> 
         <div class="function_img ">
