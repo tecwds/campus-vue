@@ -1,6 +1,6 @@
 <template>
-  <div class="order">
-    <h2>order</h2>
+  <div class="individual">
+    <h2>individual</h2>
   </div>
 </template>
 

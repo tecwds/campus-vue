@@ -1,14 +1,17 @@
 <template>
   <div class="app">
     <RouterView/>
-    <tab-bar/>
+    <Ftabbar v-if="!route.meta.hideFtabbar"/>
   </div>
 </template>
 
 <script setup>
+  import Ftabbar from "@/components/tab-bar/f-tab-bar.vue"
+  import { useRoute } from "vue-router";
 
-  import tabBar from './components/tab-bar/tab-bar.vue';
 
+  const route = useRoute()
+  
 
 </script>
 

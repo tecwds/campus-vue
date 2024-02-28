@@ -1,6 +1,7 @@
 <template>
-  <div class="message">
-    <h2>message</h2>
+  <div class="community">
+    <h2>community</h2>
+    
   </div>
 </template>
 
