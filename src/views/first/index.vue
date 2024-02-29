@@ -10,7 +10,7 @@ const route = useRoute()
 <template>
     <RouterView></RouterView>
     <!-- <Ftabbar v-if="!route.meta.hideFtabbar" /> -->
-    <Ftabbar  />
+    <Ftabbar/>
 </template>
 
 <style lang="less" scoped></style>

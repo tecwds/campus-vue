@@ -1,6 +1,7 @@
 <template>
   <div class="f_home">
     <!-- <Mtabbar v-if="!route.meta.hideMtabbar"/> -->
+    <f-home-nav-bar/>
     <div class="banner">
       <img src="../../../../public/backgroung.jpg" alt="banner">
     </div>
@@ -33,6 +34,9 @@
         </div>
       </div>
     </div>
+
+    <f-content/>
+
   </div>  
 </template>
 
@@ -60,11 +64,13 @@
   .banner {
     display: flex;
     justify-content: center;
-    border: 1px solid #e1e0e0;
+    
   }
 
   .f_box {
     display: flex;
+    border-radius: 20%;
+    border: 1px solid #e1e0e0;
     justify-content: space-evenly;
   }
 
