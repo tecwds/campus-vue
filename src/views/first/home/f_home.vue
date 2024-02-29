@@ -1,6 +1,6 @@
 <template>
   <div class="f_home">
-    <Mtabbar v-if="!route.meta.hideMtabbar"/>
+    <!-- <Mtabbar v-if="!route.meta.hideMtabbar"/> -->
     <div class="banner">
       <img src="../../../../public/backgroung.jpg" alt="banner">
     </div>
@@ -48,7 +48,7 @@
   const router = useRouter()
 
   const ershou = () => {
-    router.push("/m_home")
+    router.push("/merchandise/m_home")
   }
 
 
